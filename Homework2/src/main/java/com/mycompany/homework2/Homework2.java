@@ -19,9 +19,9 @@ public class Homework2 {
         int choice = scanner.nextInt();
         if (choice == 1){
             System.out.println("Введите название магазина");
-            String name = scanner.nextLine();
+            String name = scanner.next();
             System.out.println("Введите адрес магазина");
-            String address = scanner.nextLine();
+            String address = scanner.next();
             System.out.println("Введите число сотрудников");
             int employess = scanner.nextInt();
             System.out.println("Введите количество товаров");
@@ -31,10 +31,10 @@ public class Homework2 {
             GroceryStore GrocStore = new GroceryStore(foodInventory, name, address, employess, inventory);
             System.out.println(GrocStore.toString()); 
     } else {
-           System.out.println("Введите название магазина");
-            String name = scanner.nextLine();
+            System.out.println("Введите название магазина");
+            String name = scanner.next();
             System.out.println("Введите адрес магазина");
-            String address = scanner.nextLine();
+            String address = scanner.next();
             System.out.println("Введите число сотрудников");
             int employess = scanner.nextInt();
             System.out.println("Введите количество товаров");

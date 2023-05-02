@@ -18,7 +18,7 @@ public class GroceryStore extends Store {
 
     @Override
     public String toString(){
-        return "name = " + getName() + "address = " + getAddress() + "employess =  "
-                + getEmployess() + "inventory = " + getInventory() + " foodInventory = " + this.foodInventory;
+        return " name = " + getName() + ", address = " + getAddress() + ", employess =  "
+                + getEmployess() + ", inventory = " + getInventory() + ", foodInventory = " + this.foodInventory;
     }  
 }

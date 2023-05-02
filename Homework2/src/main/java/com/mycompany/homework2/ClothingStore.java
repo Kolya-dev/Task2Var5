@@ -18,7 +18,7 @@ public class ClothingStore extends Store {
     
     @Override
     public String toString(){
-        return "name = " + getName() + "address = " + getAddress() + "employess =  "
-                + getEmployess() + "inventory = " + getInventory() + "ClothingInventory = " + this.ClothingInventory;
+        return " name = " + getName() + ", address = " + getAddress() + ", employess =  "
+                + getEmployess() + ", inventory = " + getInventory() + ", ClothingInventory = " + this.ClothingInventory;
     }
 }
